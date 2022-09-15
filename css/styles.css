@@ -1,0 +1,120 @@
+/* common */
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th,td {
+  border: solid 1px #000;
+  width: 100px;
+}
+
+input[type="number"] {
+  width: 100%;
+  text-align: center;
+}
+
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+
+
+/* header */
+#header {
+  display: flex;
+  justify-content: space-between;
+  height: 65px;
+  background-color: #ccc;
+  margin-bottom: 60px;
+}
+
+#header h1,
+#header #header_nav {
+  line-height: 65px;
+}
+
+#header_nav ul {
+  display: flex;
+}
+
+#header_nav ul li {
+  width: 100px;
+  text-align: center;
+}
+
+#header_nav ul li:hover {
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+}
+
+#header_nav ul li a {
+  font-size: 1.25rem;
+}
+
+
+/* main */
+#main {
+  width: 760px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+#main table {
+  margin-bottom: 40px;
+}
+
+#main table thead tr th:first-child,
+#main table tbody tr th:first-child {
+  width: 260px;
+}
+
+#main ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#main ul li {
+  width: 120px;
+  background-color: #ccc;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+#main ul li:hover {
+  opacity: 0.7;
+}
+
+#main ul li a {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+
+
+/* footer */
+#footer {
+  background-color: #ccc;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#footer p{
+  font-size: 0.75rem;
+  color: #fff;
+}
