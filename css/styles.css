@@ -15,6 +15,7 @@ table {
 th,td {
   border: solid 1px #000;
   width: 100px;
+  text-align: center;
 }
 
 input[type="number"] {
@@ -101,7 +102,6 @@ input[type="number"] {
   font-weight: bold;
   font-size: 1.25rem;
 }
-
 
 
 /* footer */
